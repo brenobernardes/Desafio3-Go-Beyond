@@ -4,6 +4,7 @@ import html5Image from '../img/html5.png';
 import css3Image from '../img/css3.png';
 import jsImage from '../img/js.png';
 import typescriptImage from '../img/typescript.png';
+import reactImage from '../img/react.png';
 import nodeImage from '../img/node.png';
 import cImage from '../img/linguagem-c.png';
 import c2Image from '../img/linguagem-c++.png';
@@ -23,6 +24,8 @@ function Content3 () {
       <img src={jsImage} alt="javascript"/>
 
       <img src={typescriptImage} alt="typescript"/>
+
+      <img src={reactImage} alt="react"/>
 
       <img src={nodeImage} alt="nodejs"/>
 
