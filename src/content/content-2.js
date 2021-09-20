@@ -17,21 +17,21 @@ function Content2 () {
       
       <div className="certificateList">
 
-        <img src={certificado1}/>
+        <img src={certificado1} alt="Certificado"/>
       
-        <img src={certificado2}/>
+        <img src={certificado2} alt="Certificado"/>
     
-        <img src={certificado3}/>
+        <img src={certificado3} alt="Certificado"/>
 
-        <img src={certificado4}/>
+        <img src={certificado4} alt="Certificado"/>
 
-        <img src={certificado5}/>
+        <img src={certificado5} alt="Certificado"/>
 
-        <img src={certificado6}/>
+        <img src={certificado6} alt="Certificado"/>
 
-        <img src={certificado7}/>
+        <img src={certificado7} alt="Certificado"/>
 
-        <img src={certificado8}/>
+        <img src={certificado8}alt="Certificado"/>
 
 
     </div>
