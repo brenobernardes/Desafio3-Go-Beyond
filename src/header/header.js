@@ -30,7 +30,7 @@ function Header () {
           <div className="listContacts">
 
             <div className="listContacts-style">
-              <a target="_blank"
+              <a target="_blank" rel="noreferrer"
                   href="https://api.whatsapp.com/send?phone=5531992854695&text=Ol%C3%A1.%20Vi%20o%20seu%20contato%20em%20seu%20portif%C3%B3lio%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20trabalhos">
                   <img src={whatsappImage} alt="Logo Whatsapp" />
               </a>
@@ -38,14 +38,14 @@ function Header () {
             </div>
 
             <div className="listContacts-style">
-              <a target="_blank" href= "https://github.com/brenobernardes">
+              <a target="_blank" rel="noreferrer" href= "https://github.com/brenobernardes">
                 <img src={gitImage} alt="Logo Github" />
               </a>
               <p>GitHub</p>
             </div>
 
             <div className="listContacts-style">
-              <a target="_blank" href= "https://www.linkedin.com/in/breno-bernardes/">
+              <a target="_blank" rel="noreferrer" href= "https://www.linkedin.com/in/breno-bernardes/">
                 <img src={linkedinImage} alt="Logo Linkedin" />
               </a>
               <p>Linkedin</p>
