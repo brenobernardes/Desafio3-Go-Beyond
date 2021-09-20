@@ -16,19 +16,19 @@ function Content3 () {
     
     <div className="knowList">
 
-      <img src={html5Image}/>
+      <img src={html5Image} alt="html5"/>
     
-      <img src={css3Image}/>
+      <img src={css3Image} alt="css3"/>
 
-      <img src={jsImage}/>
+      <img src={jsImage} alt="javascript"/>
 
-      <img src={typescriptImage}/>
+      <img src={typescriptImage} alt="typescript"/>
 
-      <img src={nodeImage}/>
+      <img src={nodeImage} alt="nodejs"/>
 
-      <img src={cImage}/>
+      <img src={cImage} alt="Linguagem C"/>
 
-      <img src={c2Image}/>
+      <img src={c2Image} alt="Linguagem C++"/>
 
     </div>
   </section>
