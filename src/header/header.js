@@ -11,12 +11,12 @@ function Header () {
     <div>
       <header className="App-header">
         <div className="backgroundImage">
-          <img src={backgroundImage} alt="backgroundd image" />
+          <img src={backgroundImage} alt="background" />
         </div>      
       </header>
       <section>
         <div className="profilePicture">
-          <img src={profilePicture} alt="profile picture" />
+          <img src={profilePicture} alt="profile" />
         </div>
 
         <div className="profileName">
