@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+:root {
+  --white: #fffff; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "MontSerrat Medium";
+  src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(175, 173, 173);
+}
+
+/* Mobile */
+@media screen and (min-width:300px) and (max-width: 480px) {
+
+  .backgroundImage {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 334px;
+    height: 123px;
+    border-radius: 10px;
+  }
+  
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .backgroundImage {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 180px;
+    border-radius: 10px;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.backgroundImage img{
+  margin-top: 20px;
+  width: 81rem;
+  height: 14rem;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profilePicture {
+  display: flex;
+  justify-content: center;
+  position: inherit;
+}
+
+.profilePicture img{
+  margin-top: -110px;
+  width: 200px;
+  height: 200px;
+  border-radius: 120px;
+  border: solid #fff 20px;
+}
+
+.profileName {
+  text-align: center;
+}
+
+.profileName h1, h2 {
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+}
+
+.profileName h2 {
+  margin-top: -30px;
+  font-size: 40px;
+}
+
+.listContacts {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.listContacts-style {
+  text-align: center;
+}
+
+.listContacts-style p {
+  font-family: 'Bebas Neue';
+}
+
+.listContacts-style img {
+  width: 30px;
+  height: 30px;
+}
+
+.buttonSection {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonSection button {
+  width: 9rem;
 }
